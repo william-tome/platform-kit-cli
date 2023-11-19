@@ -3,7 +3,7 @@ package view
 import (
 	"os"
 
-	"github.com/william.tome/pk-cli/cmd/config"
+	"github.com/william-tome/platform-kit-cli/cmd/config"
 )
 
 func createViewDir(d *config.ViewProps) error {

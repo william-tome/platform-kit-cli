@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/spf13/cobra"
-	"github.com/william.tome/pk-cli/internal/create"
+	"github.com/william-tome/platform-kit-cli/internal/create"
 )
 
 func createAllFiles() *cobra.Command {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	templates "github.com/william.tome/pk-cli/assets/templates/route"
+	templates "github.com/william-tome/platform-kit-cli/assets/templates/route"
 )
 
 func generateRouteTemplate(data *templates.RouteTemplateFields, file *os.File) error {

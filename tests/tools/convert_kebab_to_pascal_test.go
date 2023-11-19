@@ -3,7 +3,7 @@ package tools
 import (
 	"testing"
 
-	"github.com/william.tome/pk-cli/tools"
+	"github.com/william-tome/platform-kit-cli/tools"
 )
 
 func TestConvertKebabToPascal(t *testing.T) {

@@ -1,9 +1,9 @@
 package create
 
 import (
-	"github.com/william.tome/pk-cli/internal/route"
-	"github.com/william.tome/pk-cli/internal/service"
-	"github.com/william.tome/pk-cli/internal/view"
+	"github.com/william-tome/platform-kit-cli/internal/route"
+	"github.com/william-tome/platform-kit-cli/internal/service"
+	"github.com/william-tome/platform-kit-cli/internal/view"
 )
 
 func CreateAllFiles(name string) error {

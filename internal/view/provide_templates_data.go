@@ -1,9 +1,9 @@
 package view
 
 import (
-	templates "github.com/william.tome/pk-cli/assets/templates/view"
-	"github.com/william.tome/pk-cli/cmd/config"
-	"github.com/william.tome/pk-cli/tools"
+	templates "github.com/william-tome/platform-kit-cli/assets/templates/view"
+	"github.com/william-tome/platform-kit-cli/cmd/config"
+	"github.com/william-tome/platform-kit-cli/tools"
 )
 
 func provideViewTemplateData(d *config.ViewProps) *templates.ViewTemplateFields {

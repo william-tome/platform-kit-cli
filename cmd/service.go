@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/spf13/cobra"
-	"github.com/william.tome/pk-cli/internal/service"
+	"github.com/william-tome/platform-kit-cli/internal/service"
 )
 
 func createService() *cobra.Command {

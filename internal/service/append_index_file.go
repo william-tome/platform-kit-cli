@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/william.tome/pk-cli/cmd/config"
-	"github.com/william.tome/pk-cli/tools"
+	"github.com/william-tome/platform-kit-cli/cmd/config"
+	"github.com/william-tome/platform-kit-cli/tools"
 )
 
 func appendImportToServiceIndexFile(d *config.ServiceProps) error {

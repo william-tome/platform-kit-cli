@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/william.tome/pk-cli/assets/templates/route"
-	"github.com/william.tome/pk-cli/tests/testdata"
+	"github.com/william-tome/platform-kit-cli/assets/templates/route"
+	"github.com/william-tome/platform-kit-cli/tests/testdata"
 )
 
 func TestGenerateRouteTemplate(t *testing.T) {

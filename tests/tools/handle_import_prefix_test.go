@@ -3,7 +3,7 @@ package tools_test
 import (
 	"testing"
 
-	"github.com/william.tome/pk-cli/tools"
+	"github.com/william-tome/platform-kit-cli/tools"
 )
 
 func TestHandleImportPrefix(t *testing.T) {

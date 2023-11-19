@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	templates "github.com/william.tome/pk-cli/assets/templates/service"
+	templates "github.com/william-tome/platform-kit-cli/assets/templates/service"
 )
 
 func generateServiceTemplate(data *templates.ServiceTemplateFields, file *os.File) error {

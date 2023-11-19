@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	templates "github.com/william.tome/pk-cli/assets/templates/view"
+	templates "github.com/william-tome/platform-kit-cli/assets/templates/view"
 )
 
 func generateViewTemplate(data *templates.ViewTemplateFields, file *os.File) error {

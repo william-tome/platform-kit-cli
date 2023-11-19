@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/spf13/cobra"
-	"github.com/william.tome/pk-cli/internal/view"
+	"github.com/william-tome/platform-kit-cli/internal/view"
 )
 
 func createView() *cobra.Command {

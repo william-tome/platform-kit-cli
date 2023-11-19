@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/william.tome/pk-cli/tools"
+	"github.com/william-tome/platform-kit-cli/tools"
 )
 
 func TestReadFileContent(t *testing.T) {

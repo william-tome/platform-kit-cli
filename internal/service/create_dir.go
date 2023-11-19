@@ -3,7 +3,7 @@ package service
 import (
 	"os"
 
-	"github.com/william.tome/pk-cli/cmd/config"
+	"github.com/william-tome/platform-kit-cli/cmd/config"
 )
 
 func createServiceDir(d *config.ServiceProps) error {

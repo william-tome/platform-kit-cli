@@ -3,9 +3,9 @@ package route
 import (
 	"strings"
 
-	templates "github.com/william.tome/pk-cli/assets/templates/route"
-	"github.com/william.tome/pk-cli/cmd/config"
-	"github.com/william.tome/pk-cli/tools"
+	templates "github.com/william-tome/platform-kit-cli/assets/templates/route"
+	"github.com/william-tome/platform-kit-cli/cmd/config"
+	"github.com/william-tome/platform-kit-cli/tools"
 )
 
 func provideRouteTemplateData(d *config.RouteProps) *templates.RouteTemplateFields {

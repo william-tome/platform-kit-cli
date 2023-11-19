@@ -1,4 +1,4 @@
-module github.com/william.tome/pk-cli
+module github.com/william-tome/platform-kit-cli
 
 go 1.21.3
 
