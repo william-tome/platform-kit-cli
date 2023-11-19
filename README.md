@@ -4,7 +4,10 @@ This is a Platform Kit CLI to support developers and contributors to create view
 
 #### HOW TO USE
 Move it to your /bin to make it available globaly or add it to your PATH.
-
+```bash
+$ chmod +x pk-cli
+$ sudo cp pk-cli /usr/local/bin
+```
 
 To get help on available commands, run:
 ```bash
