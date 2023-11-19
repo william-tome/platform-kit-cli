@@ -34,7 +34,7 @@ To create a new service with all its dependencies:
 $ pk-cli service --name [service-name]
 ```
 
-Using the --append flag, you can add a new service to an existing an directory:
+By using the --append flag, you can add a new service to an existing an directory:
 > Names should be kebab-case.
 > Directory name is required.
 ```bash
