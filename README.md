@@ -2,9 +2,6 @@
 
 This is a Platform Kit CLI to support developers and contributors to create views, routes, and services with few commands.
 
-#### Download
-MacOS: [https://github.com/william-tome/platform-kit-cli/releases](https://github.com/platform-kit/platform-kit-cli/releases)
-
 #### HOW TO USE
 Move it to your /bin to make it available globaly or add it to your PATH.
 
