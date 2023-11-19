@@ -2,6 +2,9 @@
 
 This is a Platform Kit CLI to support developers and contributors to create views, routes, and services with few commands.
 
+#### DOWNLOAD
+Download it from [GitHub](https://github.com/william-tome/platform-kit-cli/releases/download/1.0.0/pk-cli).
+
 #### HOW TO USE
 Move it to your /bin to make it available globaly or add it to your PATH.
 ```bash
