@@ -1,4 +1,4 @@
-package route
+package route_test
 
 import (
 	"bytes"
@@ -10,7 +10,6 @@ import (
 
 func TestGenerateRouteTemplate(t *testing.T) {
 	expectedTemplate := testdata.ROUTE_TEMPLATE
-	expectedError := "expected_error"
 
 	data := route.RouteTemplateFields{
 		RouteName:         "route_name",
@@ -24,9 +23,7 @@ func TestGenerateRouteTemplate(t *testing.T) {
 	tmpl, err := route.GenerateRouteTemplate()
 
 	if err != nil {
-		if err.Error() != expectedError {
-			t.Errorf("Expected error: %s, got: %s", expectedError, err.Error())
-		}
+		t.Errorf("route template: %s", err.Error())
 	} else {
 		var buf bytes.Buffer
 		tmpl.Execute(&buf, data)
